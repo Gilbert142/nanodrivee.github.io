@@ -23,7 +23,7 @@ function loadBlogPost(index) {
     changeURLParameter("id", index);
     index = parseInt(index) - 1;
 
-    var post = blogPosts[index];
+    var post = blogPosts.items[index];
     $("#blog-post-title").html(post.title);
     $("#blog-post-subtitle").removeClass("is-hidden");
     $("#blog-post-published").html(post.published);
