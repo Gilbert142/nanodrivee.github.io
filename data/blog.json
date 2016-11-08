@@ -1,13 +1,13 @@
-[
-    {
-        "title": "This is a test post",
-        "published": "11/7/2016",
-        "tags": [
-            {
-                "name": "test",
-                "class": "INSERT_BULMA_MODIFIER_CLASS_NAME_HERE"
-            }
-        ],
-        "content": "Markdown *is* **pretty** __sweet__"
-    }
-]
+{
+    "categories": ["Pixel Art", "Sketches", "Famitracker", "Projects"],
+    "items": [
+        {
+            "name": "INSERT_NAME_HERE",
+            "category": "INSERT_CATEGORY_HERE",
+            "description": "INSERT_DESCRIPTION_HERE",
+            "preview_image": "INSERT_PATH_TO_PREVIEW_IMAGE_HERE",
+            "link": "INSERT_LINK_TO_PROJECT_HERE",
+            "content": "INSERT_PROJECT_INFO_IN_MARKDOWN_HERE"
+        }
+    ]
+}
