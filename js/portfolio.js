@@ -10,7 +10,7 @@ $(document).ready(function() {
             $("#loading-failed").removeClass("is-hidden");
         },
         success: function(data) {
-            portfolioData = JSON.parse(data);
+            portfolioData = data;
 
             var portfolioSectionsHtml = "<li id='portfolio-section-All' class='portfolio-section'><a onclick='loadPortfolioSection();'>All</a></li>";
             for(var i=0; i<portfolioData.categories.length; i++) {
