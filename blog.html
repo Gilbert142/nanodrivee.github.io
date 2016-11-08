@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Blog | Mark Barnes</title>
+
+    <meta name="author" content="Mark Barnes">
+    <meta name="description" content="I make a lot of stuff. Code, digital art, music.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blog | Mark Barnes">
+    <meta property="og:image" content="assets/avatar.png">
+    <meta property="og:description" content="I make a lot of stuff. Code, digital art, music.">
+
+    <meta name="twitter:title" content="Blog | Mark Barnes">
+    <meta name="twitter:image" content="assets/avatar.png">
+    <meta name="twitter:description" content="I make a lot of stuff. Code, digital art, music.">
+
+    <link rel="shortcut icon" type="image/png" href="assets/avatar.png">
+    <meta name="theme-color" content="INSERT_HEX_CODE_HERE">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bulma.js"></script>
+
+    <script src="js/showdown.min.js"></script>
+    <script src="js/url.js"></script>
+    <script src="js/blog.js"></script>
+</head>
+<body>
+    <section class="hero is-info is-small is-bold">
+        <div class="hero-head">
+            <header class="nav">
+                <div class="container">
+                    <div class="nav-left">
+                        <a class="nav-item" href="#">
+                            <img src="assets/brand.png" alt="Mark Barnes">
+                        </a>
+                    </div>
+                    <div class="nav-center">
+                        <a class="nav-item" href="INSERT_GITHUB_LINK_HERE">
+                            <span class="icon">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                        <a class="nav-item" href="INSERT_TWITTER_LINK_HERE">
+                            <span class="icon">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                        <a class="nav-item" href="INSERT_TWITCH_LINK_HERE">
+                            <span class="icon">
+                                <i class="fa fa-twitch"></i>
+                            </span>
+                        </a>
+                        <a class="nav-item" href="INSERT_YOUTUBE_LINK_HERE">
+                            <span class="icon">
+                                <i class="fa fa-youtube-play"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <span class="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <div class="nav-right nav-menu">
+                        <a class="nav-item" href="index.html">
+                            About
+                        </a>
+                        <a class="nav-item" href="portfolio.html">
+                            Portfolio
+                        </a>
+                        <a class="nav-item is-active" href="#blog">
+                            Blog
+                        </a>
+                        <span class="nav-item">
+                            <a class="button is-white is-outlined">
+                                <span class="icon is-small">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                                <span>Contact</span>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-2">
+                    My Blog
+                </h1>
+                <h2 class="subtitle is-4">
+                    Random thoughts.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section is-white" id="portfolio">
+        <div class="container has-text-centered">
+            <a class="button is-medium is-loading" id="loading-button">Loading</a>
+            <div class="notification is-danger is-hidden" id="loading-failed">
+                Failed to load blog posts. Please reload.
+            </div>
+            <div id="blog-post" class="has-text-left">
+                <p id="blog-post-title" class="title"></p>
+                <p id="blog-post-subtitle" class="subtitle is-hidden">Published on <span id="blog-post-published"></span> <span id="blog-post-tags"></span></p>
+                <div id="blog-post-content" class="content"></div>
+                <nav class="level is-mobile">
+                    <div class="level-left">
+                        <div class="level-item">
+                            <a id="blog-post-previous" class="button is-hidden">
+                                <span class="icon is-small">
+                                    <i class="fa fa-chevron-left"></i>
+                                </span>
+                                <span>Previous post</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <div class="level-item">
+                            <a id="blog-post-next" class="button is-hidden">
+                                <span>Next post</span>
+                                <span class="icon is-small">
+                                    <i class="fa fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    Copyright &copy; 2016 <strong>Mark Barnes</strong>. Like my work? Consider <a href="INSERT_DONATE_LINK_HERE">donating</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

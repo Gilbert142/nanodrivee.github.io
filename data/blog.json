@@ -1,0 +1,13 @@
+[
+    {
+        "title": "This is a test post",
+        "published": "11/7/2016",
+        "tags": [
+            {
+                "name": "test",
+                "class": "INSERT_BULMA_MODIFIER_CLASS_NAME_HERE"
+            }
+        ],
+        "content": "Markdown *is* **pretty** __sweet__"
+    }
+]

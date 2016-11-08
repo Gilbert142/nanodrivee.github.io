@@ -1,0 +1,13 @@
+{
+    "categories": ["Pixel Art", "Sketches", "Famitracker", "Projects"],
+    "items": [
+        {
+            "name": "INSERT_NAME_HERE",
+            "category": "INSERT_CATEGORY_HERE",
+            "description": "INSERT_DESCRIPTION_HERE",
+            "preview_image": "INSERT_PATH_TO_PREVIEW_IMAGE_HERE",
+            "link": "INSERT_LINK_TO_PROJECT_HERE",
+            "content": "INSERT_PROJECT_INFO_IN_MARKDOWN_HERE"
+        }
+    ]
+}
