@@ -10,7 +10,7 @@ $(document).ready(function() {
             $("#loading-failed").removeClass("is-hidden");
         },
         success: function(data) {
-            blogPosts = JSON.parse(data);
+            blogPosts = data;
 
             loadBlogPost(getURLParameter("id") || blogPosts.length);
 
